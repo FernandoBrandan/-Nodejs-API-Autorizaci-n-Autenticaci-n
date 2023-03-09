@@ -1,0 +1,40 @@
+ Nodejs-API-Autorización-Autenticación
+Nodejs REST API con JWT y Roles (Autorización y Autenticación) & Mongodb
+
+npm i express bcryptjs cors dotenv jsonwebtoken mongoose morgan helmet -D nodemon
+
+npm i @babel/core @babel/cli @babel/node @babel/preset-env nodemon -D
+
+archivo .babelrc
+{    "preset": [       "@babel/preset-env"    ] }
+
+"build": "babel src --out-dir build",
+"start2": "node src/index.js",
+"start1": "babel-node src/index.js",
+"dev": "nodemon src/index.js --exec babel-node",
+"start": "node build/index.js"
+
+mkdir controllers libs middleware models routes
+touch app.js config.js database.js
+
+Pasos
+-Autenticación
+-Autorización
+-Middleware
+
+quedo en 1:36
+
+Pasos para Aplicacion
+singup
+singin
+create
+
+
+
+
+
+
+
+
+
+
